@@ -1,6 +1,6 @@
 import { RegisterFormData } from "./pages/Register";
 import { SignInFormData } from "./pages/Signin";
-import axios from "axios";
+
 // const API_BASE_URL = import.meta.env.BASE_URL || "";
 const url = "http://localhost:7000"
 export const register = async (formData: RegisterFormData) => {
