@@ -5,7 +5,7 @@ import SignOutButton from "./SignOutButton"
 const Header = () => {
 
     const {isLoggedin} = useAppContext() 
-     console.log(isLoggedin)
+ 
     return (
         <div className="bg-blue-800 p-6 ">
             <div className="container mx-auto flex justify-between">
